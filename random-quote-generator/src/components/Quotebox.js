@@ -4,7 +4,7 @@ import './Quotebox.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 
-export default function Quotebox({ setBgColor }) {
+export default function Quotebox({ setBgColor, bgColor}) {
   
   const [quote, setQuote] = useState( { text: "", author: "" } );
   const [loading, setLoading] = useState(false);
@@ -75,6 +75,7 @@ export default function Quotebox({ setBgColor }) {
           onClick={fetchQuote} 
           disabled={loading} 
           className="btn btn-primary m-3 btn-sm"
+          style={{ backgroundColor: bgColor, borderColor: bgColor }}
         >
           {loading ? "Loading..." : "New Quote"}
         </Button>

@@ -15,7 +15,7 @@ function App() {
       <Row className="justify-content-center w-100">
         <Col xs={12} sm={10} md={8} lg={6} xl={5} className="text-center h-100">
           <div className="App">
-            <Quotebox setBgColor={setBgColor}/>
+            <Quotebox setBgColor={setBgColor} bgColor={bgColor} />
           </div>
         </Col>
       </Row>
