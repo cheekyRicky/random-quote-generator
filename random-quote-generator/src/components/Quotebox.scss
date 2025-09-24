@@ -4,11 +4,13 @@
     background: $background-color;
     color: $text-color;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: $radius-md;
     box-shadow: $shadow-lg;
-    max-width: 900px;
+    max-width: 600px;
+    max-height: fit-content;
     text-align: center;
     margin: auto;
+    min-width: 3rem;
 }
 
 .card-header {
@@ -27,5 +29,31 @@
     color: $secondary-color !important;
     text-align: right;
     padding-right: $space-lg !important;
+    border: none !important;
+    border-radius: $radius-sm !important;
     border-top: 1px solid $secondary-color !important;
+    background: transparent !important;
+    margin-bottom: 1rem !important;
+}
+
+.btn-secondary{
+    background-color: white !important;
+    color: $twitter-color !important;
+    border: 1px solid $twitter-color !important;
+    border-radius: $radius-lg;
+    box-shadow: $shadow-sm;
+    box-shadow: inset 4 4 5px rgba(59, 123, 163, 0.5);
+    transition: background 0.3s ease;
+}
+
+.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.fade-out {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.4s ease, transform 0.4s ease;
 }
