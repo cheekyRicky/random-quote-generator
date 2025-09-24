@@ -9,10 +9,11 @@ export default function Quotebox() {
   const fetchQuote = async () => {
     setLoading(true);
     try {
-    const response = await fetch("https://zenquotes.io/api/random");
+    const response = await fetch("https://quoteslate.vercel.app/api/quotes/random");
     const data = await response.json();
-    if (data && data.length > 0){
-      setQuote( { text: data[0].q, author: data[0].a } );
+      console.log(data);
+    if (data){
+      setQuote( { text: data.quote, author: data.author } );
       }
   } catch (error) {
     console.error("Error fetching quote:", error);
