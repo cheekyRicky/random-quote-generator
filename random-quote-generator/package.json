@@ -2,7 +2,7 @@
   "name": "random-quote-generator",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/cheekyRicky/random-quote-generator",
+  "homepage": "https://cheekyricky.github.io/random-quote-generator",
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^7.0.1",
     "@fortawesome/react-fontawesome": "^3.0.2",
