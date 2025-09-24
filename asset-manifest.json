@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/cheekyRicky/random-quote-generator/static/css/main.8897bcbb.css",
-    "main.js": "/cheekyRicky/random-quote-generator/static/js/main.779b665c.js",
-    "index.html": "/cheekyRicky/random-quote-generator/index.html",
-    "main.8897bcbb.css.map": "/cheekyRicky/random-quote-generator/static/css/main.8897bcbb.css.map",
-    "main.779b665c.js.map": "/cheekyRicky/random-quote-generator/static/js/main.779b665c.js.map"
+    "main.css": "/random-quote-generator/static/css/main.8897bcbb.css",
+    "main.js": "/random-quote-generator/static/js/main.779b665c.js",
+    "index.html": "/random-quote-generator/index.html",
+    "main.8897bcbb.css.map": "/random-quote-generator/static/css/main.8897bcbb.css.map",
+    "main.779b665c.js.map": "/random-quote-generator/static/js/main.779b665c.js.map"
   },
   "entrypoints": [
     "static/css/main.8897bcbb.css",
